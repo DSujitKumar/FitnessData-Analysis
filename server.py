@@ -20,8 +20,8 @@ app = flask.Flask(__name__)
 # app.logger.setLevel(logging.INFO)
 
 # Copy your credentials from the Google Developers Console
-CLIENT_ID = '404865027459-jndn7t7a6mo94cd8sfb85pk21utgo3n8.apps.googleusercontent.com'
-CLIENT_SECRET = 'ESmECqbbLh1mpaFCHU_IgxYA'
+CLIENT_ID = 'YOUR CLIENT ID'
+CLIENT_SECRET = 'YOUR CLIENT SECRET'
 Sdate = str((datetime.now()-timedelta(days=1)).strftime("%Y-%m-%d"))
 # Check https://developers.google.com/fit/rest/v1/reference/users/dataSources/datasets/get
 # for all available scopes
